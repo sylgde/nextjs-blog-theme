@@ -7,19 +7,20 @@ import Layout, { GradientBackground } from '../components/Layout';
 import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
-import Image from 'next/image'
+import Image from 'next/image';
+import hero from '../public/unsplash-hero.jpg';
 
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
-      <main className="w-full"> 
+      <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
-        </h1> 
+        </h1>
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-
+          <Image src={hero} alt="Hero" width={800} height={400} />
         </h1>
         <ul className="w-full">
           {posts.map((post) => (
