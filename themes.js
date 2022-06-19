@@ -44,6 +44,15 @@ exports.COLOR_THEMES = {
       'gradient-4': '#FFCC81',
     },
   },
+  bluie: {
+    colors: {
+      primary: '#7D7AFF',
+      'gradient-1': '#7d7aff',
+      'gradient-2': '#2121e2',
+      'gradient-3': '#7d7aff',
+      'gradient-4': '#8785FF',
+    },
+  },
 };
 
 exports.FONT_THEMES = {
