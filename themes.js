@@ -46,11 +46,11 @@ exports.COLOR_THEMES = {
   },
   bluie: {
     colors: {
-      primary: '#7D7AFF',
-      'gradient-1': '#7d7aff',
-      'gradient-2': '#2121e2',
-      'gradient-3': '#7d7aff',
-      'gradient-4': '#8785FF',
+      primary: '#30cfd0',
+      'gradient-1': '#330867',
+      'gradient-2': '#66a6ff',
+      'gradient-3': '#330867',
+      'gradient-4': '#66a6ff',
     },
   },
 };
