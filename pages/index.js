@@ -9,6 +9,7 @@ import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
 import Image from 'next/image';
 import hero from '../public/benjamin-voros-unsplash.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Index({ posts, globalData }) {
   return (
@@ -18,6 +19,26 @@ export default function Index({ posts, globalData }) {
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
+        </h1>
+
+        <div className="grid grid-cols-4 gap-4">
+          <div className="row-start-1 col-start-2 col-end-3...">
+            <a href="https://twitter.com">
+              <FontAwesomeIcon icon="fa-brands fa-twitter" size="2x" />
+            </a>
+          </div>
+          <div className="row-start-1  col-start-3 col-end-4...">
+            <a href="https://linkedin.com">
+              <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2x" />
+            </a>
+          </div>
+          <div className="row-start-1 col-start-4 col-end-5 ...">
+            <a href="https://instagram.com">
+              <FontAwesomeIcon icon="fa-brands fa-instagram" size="2x" />
+            </a>
+          </div>
+        </div>
+        <h1 className="text-3xl lg:text-5xl text-center mb-12">
         </h1>
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           <Image src={hero} alt="Hero" width={800} height={400} />
