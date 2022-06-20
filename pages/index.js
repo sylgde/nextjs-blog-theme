@@ -8,7 +8,7 @@ import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
 import Image from 'next/image';
-import hero from '../public/unsplash-hero.jpg';
+import hero from '../public/benjamin-voros-unsplash.jpg';
 
 export default function Index({ posts, globalData }) {
   return (
