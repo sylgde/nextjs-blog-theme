@@ -38,6 +38,7 @@ export default function Index({ posts, globalData }) {
             </a>
           </div>
         </div>
+        
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
         </h1>
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
