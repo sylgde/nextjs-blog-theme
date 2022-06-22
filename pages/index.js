@@ -42,7 +42,9 @@ export default function Index({ posts, globalData }) {
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
         </h1>
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          <Image src={hero} alt="Hero" width={800} height={400} />
+          <a title="photo by Benajmin Voros, unsplash.com/@vorosbenisop">
+          <Image layout={"responsive"} placeholder="blur" src={hero} alt="Hero" width={800} height={400} />
+          </a>
         </h1>
         <ul className="w-full">
           {posts.map((post) => (
