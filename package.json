@@ -30,6 +30,8 @@
     "@mapbox/rehype-prism": "^0.8.0",
     "@netlify/plugin-nextjs": "4.9",
     "@tailwindcss/typography": "^0.5.0",
+    "@types/caniuse-lite": "^1.0.1",
+    "caniuse-lite": "^1.0.30001486",
     "classnames": "^2.3.1",
     "gray-matter": "^4.0.2",
     "next": "latest",

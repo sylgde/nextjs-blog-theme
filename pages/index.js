@@ -22,17 +22,17 @@ export default function Index({ posts, globalData }) {
         </h1>
 
         <div className="grid grid-cols-4 gap-4">
-          <div className="row-start-1 col-start-2 col-end-3...">
+          <div className="row-start-1 col-start-2 col-end-3">
             <a href="https://twitter.com/saurabh_a_">
               <FontAwesomeIcon icon="fa-brands fa-twitter" size="2x" />
             </a>
           </div>
-          <div className="row-start-1  col-start-3 col-end-4...">
+          <div className="row-start-1  col-start-3 col-end-4">
             <a href="https://linkedin.com/in/saurabhadhikari">
               <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2x" />
             </a>
           </div>
-          <div className="row-start-1 col-start-4 col-end-5 ...">
+          <div className="row-start-1 col-start-4 col-end-5">
             <a href="https://instagram.com">
               <FontAwesomeIcon icon="fa-brands fa-instagram" size="2x" />
             </a>
